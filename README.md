@@ -9,7 +9,7 @@
 Given a Google Spreadsheet like this:
 ![Spreadsheet example](doc/spreadsheet-example.png)
 
-The tool fetch the spreadsheet and write the result to a file in the Android or iOS format:
+The tool fetch the spreadsheet and write the result to a file in the Android or iOS format:  
 ![Result android](doc/result-android.png) ![Result iOS](doc/result-ios.png)
 
 Create a file update-localization.js
