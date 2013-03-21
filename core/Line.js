@@ -1,6 +1,6 @@
 var COMMENT_STARTERS = ['//', '#'];
 
-var Line = function(key, value) {
+var Line = function (key, value) {
     if (!key) {
         key = '';
     }

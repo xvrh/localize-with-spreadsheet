@@ -47,7 +47,7 @@ GSReader.prototype.select = function (keyCol, valCol) {
     var deferred = Q.defer();
     var self = this;
 
-    Q.when(self.fetchAllCells(), function(worksheets) {
+    Q.when(self.fetchAllCells(), function (worksheets) {
         var extractedLines = self.extractFromRawData(worksheets, keyCol, valCol);
         deferred.resolve(extractedLines);
     });
@@ -105,8 +105,8 @@ GSReader.prototype.flatenWorksheet = function (rawWorksheet) {
         //detect empty line
         var rowIndex = cell.row;
         var diffWithLastRow = rowIndex - lastRowIndex;
-        if(diffWithLastRow > 1) {
-            for(var j = 0; j < diffWithLastRow - 1; j++) {
+        if (diffWithLastRow > 1) {
+            for (var j = 0; j < diffWithLastRow - 1; j++) {
                 var newRow = rows[lastRowIndex + j] = [];
                 newRow[cell.col - 1] = '';
             }

@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/spreadsheet-example.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Line.js" afterPath="$PROJECT_DIR$/core/Line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/LineReader.js" afterPath="$PROJECT_DIR$/core/LineReader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Transformer.js" afterPath="$PROJECT_DIR$/core/Transformer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Writer.js" afterPath="$PROJECT_DIR$/core/Writer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/example1.js" afterPath="$PROJECT_DIR$/samples/example1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gs2file.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/gs2file.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363705205864" ignored="false" />
     <file path="/app.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363810883316" ignored="false" />
-    <file path="/a.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857687779" ignored="false" />
+    <file path="/a.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363863876457" ignored="false" />
     <file path="/a.coffee" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703127604" ignored="false" />
     <file path="/a.dart" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703130368" ignored="false" />
     <file path="/a.html" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703131970" ignored="false" />
@@ -37,7 +42,7 @@
     <file path="/package.json" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363861699696" ignored="false" />
     <file path="$PROJECT_DIR$/../node-google-spreadsheets/index.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857818158" ignored="false" />
     <file path="$PROJECT_DIR$/../node-google-spreadsheets/merge_file.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857808034" ignored="false" />
-    <file path="/README.md" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363863497902" ignored="false" />
+    <file path="/README.md" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363863663067" ignored="false" />
     <file path="/.npmignore" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363861235550" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,44 +62,7 @@
     <favorites_list name="gs2file" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineReader.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/LineReader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="51" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="50" selection-start="434" selection-end="434" vertical-scroll-proportion="-7.1923075">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="208" selection-end="208" vertical-scroll-proportion="0.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -112,22 +80,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tests/WriterTests.js" />
-        <option value="$PROJECT_DIR$/tests/LineTests.js" />
-        <option value="$PROJECT_DIR$/Line.js" />
-        <option value="$PROJECT_DIR$/tests/iOSTransformerTests.js" />
         <option value="$PROJECT_DIR$/samples/app.js" />
         <option value="$PROJECT_DIR$/tests/GSReaderTests.js" />
         <option value="$PROJECT_DIR$/Writer.js" />
         <option value="$PROJECT_DIR$/package.json.js" />
         <option value="$PROJECT_DIR$/node_modules/google-spreadsheet/index.js" />
-        <option value="$PROJECT_DIR$/samples/example1.js" />
         <option value="$PROJECT_DIR$/LineReader.js" />
         <option value="$PROJECT_DIR$/.npmignore" />
         <option value="$PROJECT_DIR$/Gs2File.js" />
-        <option value="$PROJECT_DIR$/core/LineReader.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/samples/example1.js" />
+        <option value="$PROJECT_DIR$/core/Line.js" />
+        <option value="$PROJECT_DIR$/core/LineReader.js" />
+        <option value="$PROJECT_DIR$/core/Transformer.js" />
+        <option value="$PROJECT_DIR$/core/Writer.js" />
       </list>
     </option>
   </component>
@@ -208,6 +176,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs2file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs2file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -222,7 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../node-google-spreadsheets" />
@@ -336,13 +318,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24031891" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20137058" sideWeight="0.7289294" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20137058" sideWeight="0.7289294" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39749432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -447,27 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Writer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="186" selection-end="186" vertical-scroll-proportion="0.23042169">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Transformer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Line.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.07680723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mkpath/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="14" selection-start="36" selection-end="41" vertical-scroll-proportion="-1.3076923">
@@ -496,13 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/example1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="6" selection-start="15" selection-end="15" vertical-scroll-proportion="0.02560241">
@@ -517,35 +471,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/spreadsheet-example.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="677" selection-end="677" vertical-scroll-proportion="0.5802048">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.41666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.5277778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/example1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="473" selection-end="473" vertical-scroll-proportion="0.22222222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Writer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30555555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Transformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="336" selection-end="336" vertical-scroll-proportion="0.22222222">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/LineReader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+        <state line="10" column="28" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2777778">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/core/Line.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="434" selection-end="434" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/spreadsheet-example.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="208" selection-end="208" vertical-scroll-proportion="0.25">
+        <state line="9" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.25">
           <folding />
         </state>
       </provider>

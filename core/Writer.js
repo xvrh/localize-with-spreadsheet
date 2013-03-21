@@ -1,21 +1,21 @@
 var fs = require('fs');
 var EOL = require('os').EOL;
 
-var Writer = function() {
+var Writer = function () {
 
 };
 
-Writer.prototype.write = function(filePath, lines, transformer) {
+Writer.prototype.write = function (filePath, lines, transformer) {
 
 };
 
 
-var FileWriter = function() {
+var FileWriter = function () {
 };
 
-FileWriter.prototype.write = function(filePath, lines, transformer) {
+FileWriter.prototype.write = function (filePath, lines, transformer) {
     var fileContent = '';
-    if(fs.existsSync(filePath)) {
+    if (fs.existsSync(filePath)) {
         fileContent = fs.readFileSync(filePath, 'utf8');
     }
 
@@ -37,18 +37,18 @@ var writeFileAndCreateDirectoriesSync = function (filepath, content, encoding) {
     fs.writeFileSync(filepath, content, encoding);
 };
 
-FileWriter.prototype.getTransformedLines = function(lines, transformer) {
+FileWriter.prototype.getTransformedLines = function (lines, transformer) {
     var valueToInsert = '';
-    for(var i = 0; i < lines.length; i++) {
+    for (var i = 0; i < lines.length; i++) {
         var line = lines[i];
-        if(!line.isEmpty()) {
-            if(line.isComment()) {
+        if (!line.isEmpty()) {
+            if (line.isComment()) {
                 valueToInsert += transformer.transformComment(line.getComment());
             } else {
                 valueToInsert += transformer.transformKeyValue(line.getKey(), line.getValue());
             }
         }
-        if(i != lines.length - 1) {
+        if (i != lines.length - 1) {
             valueToInsert += EOL;
         }
     }
@@ -56,11 +56,11 @@ FileWriter.prototype.getTransformedLines = function(lines, transformer) {
     return valueToInsert;
 }
 
-var FakeWriter = function() {
+var FakeWriter = function () {
 
 };
 
-FakeWriter.prototype.write = function(filePath, lines, transformer) {
+FakeWriter.prototype.write = function (filePath, lines, transformer) {
 
 };
 
