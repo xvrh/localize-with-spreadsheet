@@ -1,6 +1,6 @@
-var GSReader = require('./LineReader.js').GS;
-var FileWriter = require('./Writer.js').File;
-var Transformer = require('./Transformer.js');
+var GSReader = require('./core/LineReader.js').GS;
+var FileWriter = require('./core/Writer.js').File;
+var Transformer = require('./core/Transformer.js');
 
 var Gs2File = function (reader, writer) {
     this._reader = reader;
@@ -59,15 +59,6 @@ Gs2File.prototype.save = function (outputPath, opts, cb) {
             cb();
         }
     });
-
-    // Input (googlespreadsheet or fake)
-    // Output (file or fake)
-    // Transformer (Android, iOS...)
-    // Data (Key/Value | commentaire)
-    // Glue == Gs2File (dependency injection / testable...)
-
-
-
 
 };
 

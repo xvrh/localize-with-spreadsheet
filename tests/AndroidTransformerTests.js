@@ -1,4 +1,4 @@
-var transformer = require("../Transformer.js")['android'];
+var transformer = require("../core/Transformer.js")['android'];
 var EOL = require('os').EOL;
 
 exports.testComment = function (test) {

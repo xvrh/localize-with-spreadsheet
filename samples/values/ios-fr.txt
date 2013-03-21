@@ -1,0 +1,15 @@
+
+
+
+
+
+// AUTO-GENERATED
+"MaClé3" = "La valeur 1";
+"MaClé2" = "La vale de la clé 2";
+// un commentaire
+"une clée" = "";
+
+
+// un autre commentaire
+
+"ICI" = "";

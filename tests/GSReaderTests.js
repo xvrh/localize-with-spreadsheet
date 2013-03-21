@@ -1,4 +1,4 @@
-var GSReader = require("../LineReader.js").GS;
+var GSReader = require("../core/LineReader.js").GS;
 
 exports.testShouldUseWorksheetWhenEmptyOrNullOrStar = function(test) {
     test.equal(true, GSReader.shouldUseWorksheet('', 'LeTitre', 1));

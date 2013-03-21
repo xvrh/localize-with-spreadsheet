@@ -2,437 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/WriterTests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/00-setup.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/00-setup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/256.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/256.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/CONTRIBUTORS.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/CONTRIBUTORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\test_all.cmd" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\Gs2File.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\Line.js" afterPath="$PROJECT_DIR$/core/Line.js" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\LineReader.js" afterPath="$PROJECT_DIR$/core/LineReader.js" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\Transformer.js" afterPath="$PROJECT_DIR$/core/Transformer.js" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\Writer.js" afterPath="$PROJECT_DIR$/core/Writer.js" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\samples\app.js" afterPath="$PROJECT_DIR$/samples/example1.js" />
+      <change type="MOVED" beforePath="C:\Users\Xavier\WebstormProjects\gs2file\samples\example1.js" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/AndroidTransformerTests.js" afterPath="$PROJECT_DIR$/tests/AndroidTransformerTests.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/GSReaderTests.js" afterPath="$PROJECT_DIR$/tests/GSReaderTests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gs2File.js" afterPath="$PROJECT_DIR$/Gs2File.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/History.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/LICENSE" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Line.js" afterPath="$PROJECT_DIR$/Line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LineReader.js" afterPath="$PROJECT_DIR$/LineReader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/LineTests.js" afterPath="$PROJECT_DIR$/tests/LineTests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/Makefile" afterPath="$PROJECT_DIR$/node_modules/nodeunit/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/Makefile" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/README.html" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/README.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/README.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/inherits/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/README.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/README.org" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/README.org" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/Readme.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Writer.js" afterPath="$PROJECT_DIR$/Writer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/lib/abbrev.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/lib/abbrev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/all.js" afterPath="$PROJECT_DIR$/tests/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/app.js" afterPath="$PROJECT_DIR$/samples/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array3.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array3.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array4.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/array4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array4.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/array4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/assert.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/assert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/assignment.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/assignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/ast.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/ast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/async-map-ordered.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/async-map-ordered.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/async-map.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/async-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/async.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test-disabled/bailout.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test-disabled/bailout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/lib/bar.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/lib/bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/test/bar.test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/test/bar.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/bash-comparison.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/bash-comparison.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/bash-results.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/bash-results.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/basic.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/test/baz.test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/test/baz.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/beautify.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/beautify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/benchmark.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/benchmark.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/bind-actor.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/bind-actor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/brace-expand.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/brace-expand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/browser.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/bs.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/buffer_compare.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/buffer_compare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/caching.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/caching.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/chain.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/chain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/chmod.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/chmod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/circular.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/circular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/circular.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/circular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/examples/client.html" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/examples/client.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/clobber.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/clobber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/example/cmp.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/example/cmp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/test/cmp.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/test/cmp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/cmp_array.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/cmp_array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/cmp_object.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/cmp_object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/colors.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/colors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/column.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/column.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/comma_first.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/comma_first.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/common.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/support/compile.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/support/compile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/console.log.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/console.log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/core.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/test/cover.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/test/cover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/test/src/cover.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/test/src/cover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/test/src/coverage.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/test/src/coverage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/cursor.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/cursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/cwd-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/cwd-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/date.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/date.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/deep.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/deep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/lib/deep_equal.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/lib/deep_equal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/lib/deep_equal.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/lib/deep_equal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/default.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/defaults.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/test/defaults.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/diff.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/diff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/docstyle.css" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/docstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/eclipse.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/eclipse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/ejs.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/ejs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/lib/ejs.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/lib/ejs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/ejs.min.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/ejs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/test/ejs.test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/test/ejs.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/empty-blocks.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/empty-blocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/empty-blocks.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/empty-blocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/lib/encode.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/lib/encode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/example/eq.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/example/eq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/test/eq.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/test/eq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/equal.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/equal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/equal.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/equal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/err.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/err.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/error.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/executed.sh" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/executed.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/expose-gc-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/expose-gc-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/fail.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/fail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/fail.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/fail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/lib/filters.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/lib/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/lib/foo.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/lib/foo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test-disabled/foo.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test-disabled/foo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/test/foo.test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/coverage-example/test/foo.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/forstatement.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/forstatement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/examples/g.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/examples/g.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/glob.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/glob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gs2file.iml" afterPath="$PROJECT_DIR$/.idea/gs2file.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/has.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/has.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/hoist.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/hoist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/html.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/html.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/test/html.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/test/html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/http_spin.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/http_spin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/ifreturn2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/ifreturn2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/ifreturn2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/ifreturn2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/independent-timeouts.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/independent-timeouts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/index.html" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/test/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/index.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/inherits-old.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/inherits-old.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/inherits/inherits.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/inherits/inherits.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/inherits.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/inherits.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/instance.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/instance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/instance.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/instance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/instrument.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/instrument.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/instrument2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/instrument2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/interface.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/interface.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/test/interface.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/test/interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/isolated-conf-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/isolated-conf-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue11.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue11.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue14.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue14.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue17.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue17.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue21.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue21.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue25.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue25.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue28.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue28.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue30.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue30.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue34.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue34.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue4.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue50.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue50.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue50.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue50.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue53.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue53.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue53.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue53.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue54.1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue54.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue54.1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue54.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue68.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue68.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue68.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue68.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue69.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/issue69.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue69.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue69.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue9.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/issue9.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/json.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/json.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/json.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/json.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/json2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/json2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/junit.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/junit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/share/junit.xml.ejs" afterPath="$PROJECT_DIR$/node_modules/nodeunit/share/junit.xml.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/keys.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/keys.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/keys.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/keys.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/label.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/label.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/leaves.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/leaves.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/leaves.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/leaves.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/testling/leaves.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/testling/leaves.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/leaves.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/leaves.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/leaves.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/leaves.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/share/license.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/share/license.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/examples/list.ejs" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/examples/list.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/examples/list.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/examples/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/lucky.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/lucky.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/machineout.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/machineout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/main.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/main.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/main.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/mangle.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/mangle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/mangle.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/mangle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/mark.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/mark.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/example/lib/math.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/example/lib/math.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/meta-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/meta-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/microwave.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/microwave.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/microwave.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/microwave.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/minimal.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/minimal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/minimatch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/mkdirp.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/mkdirp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/coffee/mock_coffee_module.coffee" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/coffee/mock_coffee_module.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/mock_module1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/mock_module1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/mock_module2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/mock_module2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/dir/mock_module3.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/dir/mock_module3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/dir/mock_module4.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/dir/mock_module4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/mutability.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/mutability.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/mutability.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/mutability.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/examples/my-program.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/negative.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/negative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/negative.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/negative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/negative.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/negative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/negative.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/negative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/nested-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/nested-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/nested.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/nested.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/examples/nested/nested_reporter_test.unit.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/examples/nested/nested_reporter_test.unit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/nocase-nomagic.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/nocase-nomagic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/nodelint.cfg" afterPath="$PROJECT_DIR$/node_modules/nodeunit/nodelint.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/man1/nodeunit.1" afterPath="$PROJECT_DIR$/node_modules/nodeunit/man1/nodeunit.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/share/nodeunit.css" afterPath="$PROJECT_DIR$/node_modules/nodeunit/share/nodeunit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/nodeunit.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/nodeunit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/nodeunit.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/nodeunit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/doc/nodeunit.md" afterPath="$PROJECT_DIR$/node_modules/nodeunit/doc/nodeunit.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/nodeunit" afterPath="$PROJECT_DIR$/node_modules/.bin/nodeunit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/non-tap-output.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/non-tap-output.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/lib/nopt.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/lib/nopt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/.bin/nopt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/not-executed.sh" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/not-executed.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/obj.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/obj.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/obj.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/obj.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/object-ast.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/object-ast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/test/open.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/test/open.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/output-childtest-description.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/output-childtest-description.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/package.json" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/parent.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/parent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/parse-js.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/parse-js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/pause-resume.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/pause-resume.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/perm.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/perm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/perm_sync.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/perm_sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/position.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/position.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/examples/pow.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/examples/pow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/process.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/process.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/prof.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/prof.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/progress.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/progress.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/race.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/race.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/raw_jscode1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/raw_jscode1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/raw_jscode2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/raw_jscode2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/raw_jscode3.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/fixtures/raw_jscode3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/readme.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/rel.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/rel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/result-trap.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/result-trap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/return.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/return.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/test/return.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/test/return.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/return_sync.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/return_sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/root-nomount.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/root-nomount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/root.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/root.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/top/run.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/top/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/scripts.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/scrub.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/scrub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/scrub.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/scrub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/segv.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/segv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/server.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/web/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/siblings.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/siblings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/siblings.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/siblings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/simple-harness-test-with-plan.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/simple-harness-test-with-plan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/simple-harness-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/simple-harness-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/skip_passed.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/skip_passed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/slide.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/slide/lib/slide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/spin.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/example/spin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/squeeze-more.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/lib/squeeze-more.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/top/src.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/top/src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/fail/src.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/fail/src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/stop.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/stop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/stop.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/stop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/strict-equals.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/strict-equals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/string.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/example/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/stringify.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/examples/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/stringify.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/examples/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/subexpr.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/subexpr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/subexpr.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/subexpr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/suite1.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/suite1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/suite2.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/suite2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/suite3.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/suite3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/super_deep.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/test/super_deep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/super_deep.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/test/super_deep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/sync.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test-disabled/t.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test-disabled/t.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/end-exception/t.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/end-exception/t.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-assert.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-assert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-browser-harness.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-browser-harness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-consumer.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-consumer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-cov-html.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-cov-html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-global-harness.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-global-harness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-harness.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-harness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-producer.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-producer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-results.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-results.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-runner.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-runner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/lib/tap-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/tap.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/tap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/.bin/tap" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/.bin/tap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-base.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-bettererrors.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-bettererrors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/example/test/test-example.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/example/test/test-example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-failing-callbacks.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-failing-callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-httputil.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-httputil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-runfiles.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-runfiles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-runmodule.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-runmodule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-runtest.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-runtest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-sandbox.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-sandbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/test-test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/test-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-testcase-legacy.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-testcase-legacy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test-testcase.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test-testcase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/test.html" afterPath="$PROJECT_DIR$/node_modules/nodeunit/examples/browser/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/test/test.html" afterPath="$PROJECT_DIR$/node_modules/nodeunit/test/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/test.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/tmp/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/testparser.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/testparser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/timeout.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/timeout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/tiny.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/example/tiny.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/track.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/track.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/types.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/types.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/uglify-js.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/uglify-js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/.bin/uglifyjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/umask.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/umask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/umask_sync.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/test/umask_sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/undefined_indented.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/test/undefined_indented.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/examples/usr-local.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/examples/usr-local.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/deps/ejs/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/verbose.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/lib/reporters/verbose.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/whitespace.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/whitespace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/whitespace.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/whitespace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/with.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/expected/with.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/with.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/with.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/WriterTests.js" afterPath="$PROJECT_DIR$/tests/WriterTests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/iOSTransformerTests.js" afterPath="$PROJECT_DIR$/tests/iOSTransformerTests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/index.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/boom/test/index.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/boom/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/cryptiles/test/index.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/cryptiles/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/sntp/test/index.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/sntp/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/index.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/sntp/examples/offset.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/sntp/examples/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/qs/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/readme.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/readme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/server.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/qs/test/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/node-uuid/test/test.html" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/node-uuid/test/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/sntp/examples/time.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/node_modules/sntp/examples/time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/uri.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/example/usage.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/example/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/utils.js" afterPath="$PROJECT_DIR$/node_modules/google-spreadsheet/node_modules/request/node_modules/hawk/test/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/wrap.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/example/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/wrap.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/test/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/yamlish.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/yamlish.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/zz-cleanup.js" afterPath="$PROJECT_DIR$/node_modules/nodeunit/node_modules/tap/node_modules/glob/test/zz-cleanup.js" />
     </list>
     <ignored path="gs2file.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/gs2file.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363705205864" ignored="false" />
     <file path="/app.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363810883316" ignored="false" />
-    <file path="/a.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703126003" ignored="false" />
+    <file path="/a.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857687779" ignored="false" />
     <file path="/a.coffee" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703127604" ignored="false" />
     <file path="/a.dart" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703130368" ignored="false" />
     <file path="/a.html" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363703131970" ignored="false" />
@@ -450,11 +59,16 @@
     <file path="/GSReaderTests.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363852933346" ignored="false" />
     <file path="/fragment.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363789407714" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/nodeunit-intellij-starter.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363796899173" ignored="false" />
-    <file path="/Dummy.txt" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363850138750" ignored="false" />
-    <file path="/Writer.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363811265165" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857592118" ignored="false" />
+    <file path="/Writer.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363855898267" ignored="false" />
     <file path="/WriterTests.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363806153526" ignored="false" />
     <file path="/Gs2File.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363852065780" ignored="false" />
     <file path="/iOSTransformerTests.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363811139241" ignored="false" />
+    <file path="/package.json" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363861699696" ignored="false" />
+    <file path="$PROJECT_DIR$/../node-google-spreadsheets/index.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857818158" ignored="false" />
+    <file path="$PROJECT_DIR$/../node-google-spreadsheets/merge_file.js" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363857808034" ignored="false" />
+    <file path="/README.md" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363860798104" ignored="false" />
+    <file path="/.npmignore" changelist="d9f4c2e2-1177-4291-99e9-6ae5991a83fc" time="1363861235550" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -474,55 +88,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gs2File.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gs2File.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="17" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Line.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Line.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transformer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transformer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="36" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LineReader.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LineReader.js">
+        <entry file="file://$PROJECT_DIR$/core/LineReader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="4" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.0">
+            <state line="5" column="51" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GSReaderTests.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/GSReaderTests.js">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="50" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0">
+            <state line="11" column="41" selection-start="432" selection-end="432" vertical-scroll-proportion="0.31911263">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/app.js">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.36889693">
+            <state line="19" column="91" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -546,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Transformer.js" />
-        <option value="$PROJECT_DIR$/tests/iOSTransformer.js" />
-        <option value="$PROJECT_DIR$/src/Line.js" />
-        <option value="$PROJECT_DIR$/Transformer.js" />
-        <option value="$PROJECT_DIR$/node_modules/google-spreadsheet/index.js" />
-        <option value="$PROJECT_DIR$/Writer.html" />
-        <option value="$PROJECT_DIR$/tests/all.js" />
         <option value="$PROJECT_DIR$/tests/WriterTests.js" />
         <option value="$PROJECT_DIR$/tests/LineTests.js" />
         <option value="$PROJECT_DIR$/Line.js" />
         <option value="$PROJECT_DIR$/tests/iOSTransformerTests.js" />
-        <option value="$PROJECT_DIR$/Writer.js" />
         <option value="$PROJECT_DIR$/samples/app.js" />
-        <option value="$PROJECT_DIR$/Gs2File.js" />
-        <option value="$PROJECT_DIR$/LineReader.js" />
         <option value="$PROJECT_DIR$/tests/GSReaderTests.js" />
+        <option value="$PROJECT_DIR$/Writer.js" />
+        <option value="$PROJECT_DIR$/package.json.js" />
+        <option value="$PROJECT_DIR$/node_modules/google-spreadsheet/index.js" />
+        <option value="$PROJECT_DIR$/samples/example1.js" />
+        <option value="$PROJECT_DIR$/LineReader.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.npmignore" />
+        <option value="$PROJECT_DIR$/Gs2File.js" />
+        <option value="$PROJECT_DIR$/core/LineReader.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -613,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -631,33 +228,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs2file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gs2file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node-google-spreadsheets" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Xavier\WebstormProjects\gs2file\tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Xavier\WebstormProjects\gs2file" />
-      <recent name="C:\Users\Xavier\WebstormProjects\gs2file\samples" />
+      <recent name="C:\Users\Xavier\WebstormProjects\gs2file\node_modules\google-spreadsheet\node_modules" />
+      <recent name="C:\Users\Xavier\WebstormProjects\gs2file\node_modules\google-spreadsheet" />
+      <recent name="C:\Users\Xavier\WebstormProjects\gs2file\core" />
+      <recent name="C:\Users\Xavier\WebstormProjects\gs2file\google-spreadsheet-modified" />
+      <recent name="C:\Users\Xavier\WebstormProjects\gs2file\node_modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.example1.js">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -679,7 +292,7 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="samples/app.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="example1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="samples/example1.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -701,7 +314,7 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.example1.js" />
       <item index="1" class="java.lang.String" itemvalue="Nodeunit.Test All" />
     </list>
   </component>
@@ -729,25 +342,31 @@
       <created>1363696533073</created>
       <updated>1363696533073</updated>
     </task>
+    <task id="LOCAL-00001" summary="Feature completed">
+      <created>1363853171877</created>
+      <updated>1363853171877</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24031891" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20137058" sideWeight="0.6617312" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49430525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20137058" sideWeight="0.7289294" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39749432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27107063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24133949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -795,7 +414,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature completed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -809,13 +428,14 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Feature completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="70" />
+      <option name="time" value="71" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -835,108 +455,114 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/mkpath/mkpath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.9203007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/googleclientlogin/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Writer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="186" selection-end="186" vertical-scroll-proportion="0.23042169">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Transformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Line.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.07680723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mkpath/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="36" selection-end="41" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/q/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="31" selection-end="36" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodeunit/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="14" selection-start="1310" selection-end="1315" vertical-scroll-proportion="0.4832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/google-spreadsheet/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/samples/example1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/nodeunit/lib/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="38" selection-start="2155" selection-end="2155" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="1" selection-end="534" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AndroidTransformerTests.js">
+    <entry file="file://$PROJECT_DIR$/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="234" selection-end="234" vertical-scroll-proportion="0.16504854">
+        <state line="1" column="6" selection-start="15" selection-end="15" vertical-scroll-proportion="0.02560241">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/all.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="218" selection-end="218" vertical-scroll-proportion="0.16504854" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/WriterTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="54" selection-start="288" selection-end="288" vertical-scroll-proportion="0.047085203">
+        <state line="19" column="91" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/google-spreadsheet/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/google-spreadsheet/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="9" selection-start="6865" selection-end="6865" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/iOSTransformerTests.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/LineTests.js">
+    <entry file="file://$PROJECT_DIR$/core/LineReader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+        <state line="5" column="51" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Writer.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="-0.46645367">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_all.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gs2File.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="17" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Line.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transformer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LineReader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="4" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GSReaderTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="50" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.36889693">
+        <state line="11" column="41" selection-start="432" selection-end="432" vertical-scroll-proportion="0.31911263">
           <folding />
         </state>
       </provider>

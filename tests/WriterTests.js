@@ -1,8 +1,8 @@
-var FileWriter = require('../Writer').File;
-var Transformer = require('../Transformer');
+var FileWriter = require('../core/Writer').File;
+var Transformer = require('../core/Transformer');
 var androidTransformer = Transformer.android;
 var iosTransformer = Transformer.ios;
-var Line = require('../Line');
+var Line = require('../core/Line');
 var EOL = require('os').EOL;
 
 exports.test_getTransformedLines_WithAndroidTransformer_ShouldReturnXml = function(test) {

@@ -1,4 +1,4 @@
-var Line = require('../Line');
+var Line = require('../core/Line');
 
 exports.test_isCommentIsFalseWhenNotComment = function (test) {
     var line = new Line('pas un commentaire', 'une valeur');

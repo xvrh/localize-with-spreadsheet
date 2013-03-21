@@ -30,13 +30,11 @@ FileWriter.prototype.write = function(filePath, lines, transformer) {
 var writeFileAndCreateDirectoriesSync = function (filepath, content, encoding) {
     var mkpath = require('mkpath');
     var path = require('path');
-    mkpath(path.dirname(filepath), function (err) {
-        if (err) {
-            console.log(err);
-        } else {
-            fs.writeFileSync(filepath, content, encoding);
-        }
-    });
+
+    var dirname = path.dirname(filepath);
+    mkpath.sync(dirname);
+
+    fs.writeFileSync(filepath, content, encoding);
 };
 
 FileWriter.prototype.getTransformedLines = function(lines, transformer) {

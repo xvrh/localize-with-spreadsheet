@@ -1,4 +1,4 @@
-var transformer = require("../Transformer.js")['ios'];
+var transformer = require("../core/Transformer.js")['ios'];
 var EOL = require('os').EOL;
 
 exports.testComment = function (test) {
