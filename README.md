@@ -31,6 +31,7 @@ Run it with
 ## Advanced
 You can filter the worksheets to include with the second parameter of 'fromGoogleSpreadsheet'
 Ex:
+
     Gs2File.fromGoogleSpreadsheet("<Key>", '*');
     Gs2File.fromGoogleSpreadsheet("<Key>", ['HomeScreen, 'ContactScreen']);
     Gs2File.fromGoogleSpreadsheet("<Key>", [0, 2]);
