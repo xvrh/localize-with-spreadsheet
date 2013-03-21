@@ -32,8 +32,10 @@ Run it with
 You can filter the worksheets to include with the second parameter of 'fromGoogleSpreadsheet'
 Ex:
 
-    Gs2File.fromGoogleSpreadsheet("<Key>", '*');
-    Gs2File.fromGoogleSpreadsheet("<Key>", ['HomeScreen, 'ContactScreen']);
-    Gs2File.fromGoogleSpreadsheet("<Key>", [0, 2]);
+    Localize.fromGoogleSpreadsheet("<Key>", '*');
+    Localize.fromGoogleSpreadsheet("<Key>", ['HomeScreen, 'ContactScreen']);
+    Localize.fromGoogleSpreadsheet("<Key>", [0, 2]);
 
-The script will preserve everything that is above the tags: <!-- AUTO-GENERATED --> or // AUTO-GENERATED
+## Notes
+- The script will preserve everything that is above the tags: < !-- AUTO-GENERATED --> or // AUTO-GENERATED
+- Your spreadsheet should be "Published" for this to work
