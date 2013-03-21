@@ -5,35 +5,53 @@ var Writer = function() {
 
 };
 
-Writer.prototype.write = function(lines, transformer) {
+Writer.prototype.write = function(filePath, lines, transformer) {
 
 };
 
 
-var FileWriter = function(filePath) {
-    this._filePath = filePath;
+var FileWriter = function() {
 };
 
-FileWriter.prototype.write = function(lines, transformer) {
-    var fileContent = fs.readFileSync(this._filePath, 'utf8');
+FileWriter.prototype.write = function(filePath, lines, transformer) {
+    var fileContent = '';
+    if(fs.existsSync(filePath)) {
+        fileContent = fs.readFileSync(filePath, 'utf8');
+    }
 
     var valueToInsert = this.getTransformedLines(lines, transformer);
 
     var output = transformer.insert(fileContent, valueToInsert);
 
-    fs.writeFile(this._filePath, output, 'utf8');
+    writeFileAndCreateDirectoriesSync(filePath, output, 'utf8');
+};
+
+//https://gist.github.com/jrajav/4140206
+var writeFileAndCreateDirectoriesSync = function (filepath, content, encoding) {
+    var mkpath = require('mkpath');
+    var path = require('path');
+    mkpath(path.dirname(filepath), function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            fs.writeFileSync(filepath, content, encoding);
+        }
+    });
 };
 
 FileWriter.prototype.getTransformedLines = function(lines, transformer) {
     var valueToInsert = '';
     for(var i = 0; i < lines.length; i++) {
         var line = lines[i];
-        if(line.isEmpty()) {
+        if(!line.isEmpty()) {
+            if(line.isComment()) {
+                valueToInsert += transformer.transformComment(line.getComment());
+            } else {
+                valueToInsert += transformer.transformKeyValue(line.getKey(), line.getValue());
+            }
+        }
+        if(i != lines.length - 1) {
             valueToInsert += EOL;
-        } else if(line.isComment()) {
-            valueToInsert += EOL + transformer.transformComment(line.getComment());
-        } else {
-            valueToInsert += EOL + transformer.transformKeyValue(line.getKey(), line.getValue());
         }
     }
 
@@ -44,8 +62,8 @@ var FakeWriter = function() {
 
 };
 
-FakeWriter.prototype.write = function(lines, transformer) {
+FakeWriter.prototype.write = function(filePath, lines, transformer) {
 
 };
 
-exports = { File: FileWriter, Fake: FakeWriter };
+module.exports = { File: FileWriter, Fake: FakeWriter };

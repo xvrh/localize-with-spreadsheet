@@ -13,8 +13,8 @@ var Line = function(key, value) {
     }
 
     this._isComment = isComment;
-    this._key = key;
-    this._value = value;
+    this._key = key || '';
+    this._value = value || '';
 
 }
 
@@ -33,7 +33,9 @@ Line.normalizeComment = function (val) {
         var commentStarter = COMMENT_STARTERS[i];
         var index = val.indexOf(commentStarter);
         if (index == 0) {
-            return val.substr(index, val.length - index);
+            var normalized = val.substr(commentStarter.length, val.length - commentStarter.length);
+            normalized = normalized.trim();
+            return normalized;
         }
     }
     return val;

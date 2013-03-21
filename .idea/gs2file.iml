@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Node.js v0.8.19 Core Modules" level="application" />
+    <orderEntry type="library" name="Node.js v0.10.0 Core Modules" level="application" />
   </component>
 </module>
 

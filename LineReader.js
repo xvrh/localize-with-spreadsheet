@@ -1,8 +1,9 @@
 var Line = require('./Line.js');
 var GoogleSpreadsheet = require('google-spreadsheet');
+var Q = require('q');
 
 var LineReader = {
-    select: function (sheets, keyCol, keyVal, cb) {
+    select: function (sheets, keyCol, valCol, cb) {
     }
 };
 
@@ -10,48 +11,61 @@ var GSReader = function (spreadsheetKey, sheetsFilter) {
     this._sheet = new GoogleSpreadsheet(spreadsheetKey);
     this._sheetsFilter = sheetsFilter;
 
+    this._fetchDeferred = Q.defer();
+    this._isFetching = false;
     this._fetchedWorksheets = null;
 };
 
-GSReader.prototype.fetchAllCells = function (cb) {
+GSReader.prototype.fetchAllCells = function () {
     var self = this;
 
-    this._fetchedWorksheets = [];
-    this._sheet.getInfo(function (err, data) {
-        if (err) {
-            cb();
-        } else {
-            var worksheetReader = new WorksheetReader(this._sheetsFilter, data);
-            worksheetReader.read(function (fetchedWorksheets) {
-                self._fetchedWorksheets = fetchedWorksheets;
-                cb();
+    if (self._fetchedWorksheets == null) {
+
+        if (!self._isFetching) {
+            self._isFetching = true;
+
+            self._sheet.getInfo(function (err, data) {
+                if (err) {
+                    self._fetchDeferred.reject(err);
+                } else {
+                    var worksheetReader = new WorksheetReader(this._sheetsFilter, data.worksheets);
+                    worksheetReader.read(function (fetchedWorksheets) {
+                        self._fetchedWorksheets = fetchedWorksheets;
+                        self._fetchDeferred.resolve(self._fetchedWorksheets);
+                    });
+                }
             });
         }
-    });
+
+        return this._fetchDeferred.promise;
+    } else {
+        return self._fetchedWorksheets;
+    }
 }
 
-GSReader.prototype.select = function (keyCol, keyVal, cb) {
+GSReader.prototype.select = function (keyCol, valCol) {
+    var deferred = Q.defer();
     var self = this;
 
-    if (this._fetchedWorksheets == null) {
-        this.fetchAllCells(function () {
-            self.select(keyCol, keyVal, cb);
-        });
-    } else {
-        var extractedLines = self.extractFromRawData(self._fetchedWorksheets, keyCol, keyVal);
-        cb(extractedLines);
-    }
+    Q.when(self.fetchAllCells(), function(worksheets) {
+        var extractedLines = self.extractFromRawData(worksheets, keyCol, valCol);
+        deferred.resolve(extractedLines);
+    });
+
+    return deferred.promise;
 };
 
-GSReader.prototype.extractFromRawData = function (rawWorksheets, keyCol, keyVal) {
+GSReader.prototype.extractFromRawData = function (rawWorksheets, keyCol, valCol) {
     var extractedLines = [];
     for (var i = 0; i < rawWorksheets.length; i++) {
-        var extracted = this.extractFromWorksheet(rawWorksheets[i], keyCol, keyVal);
+        var extracted = this.extractFromWorksheet(rawWorksheets[i], keyCol, valCol);
         extractedLines.push.apply(extractedLines, extracted);
     }
+
+    return extractedLines;
 }
 
-GSReader.prototype.extractFromWorksheet = function (rawWorksheet, keyCol, keyVal) {
+GSReader.prototype.extractFromWorksheet = function (rawWorksheet, keyCol, valCol) {
     var results = [];
 
     var rows = this.flatenWorksheet(rawWorksheet);
@@ -64,7 +78,7 @@ GSReader.prototype.extractFromWorksheet = function (rawWorksheet, keyCol, keyVal
             if (value == keyCol) {
                 keyIndex = i;
             }
-            if (value == keyVal) {
+            if (value == valCol) {
                 valIndex = i;
             }
         }
@@ -84,8 +98,20 @@ GSReader.prototype.extractFromWorksheet = function (rawWorksheet, keyCol, keyVal
 
 GSReader.prototype.flatenWorksheet = function (rawWorksheet) {
     var rows = [];
+    var lastRowIndex = 1;
     for (var i = 0; i < rawWorksheet.length; i++) {
         var cell = rawWorksheet[i];
+
+        //detect empty line
+        var rowIndex = cell.row;
+        var diffWithLastRow = rowIndex - lastRowIndex;
+        if(diffWithLastRow > 1) {
+            for(var j = 0; j < diffWithLastRow - 1; j++) {
+                var newRow = rows[lastRowIndex + j] = [];
+                newRow[cell.col - 1] = '';
+            }
+        }
+        lastRowIndex = rowIndex;
 
         var row = rows[cell.row - 1];
         if (!row) {
@@ -136,13 +162,12 @@ WorksheetReader.prototype.read = function (cb) {
 WorksheetReader.prototype.next = function (cb) {
     var self = this;
     if (this._index < this._worksheets.length) {
-        var currentWorksheet = this._worksheets[this._index];
-        if (GSReader.shouldUseWorksheet(this._filterSheets, currentWorksheet.title, this._index)) {
-            currentWorksheet.getCells(null, function (err, cells) {
+        var index = this._index++;
+        var currentWorksheet = this._worksheets[index];
+        if (GSReader.shouldUseWorksheet(this._filterSheets, currentWorksheet.title, index)) {
+            currentWorksheet.getCells(currentWorksheet.id, function (err, cells) {
                 if (!err) {
-                    var transformedCells = self.transformRawData(cells);
-
-                    this._data.push(cells);
+                    self._data.push(cells);
                 }
                 self.next(cb);
             });
