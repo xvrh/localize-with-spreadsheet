@@ -13,8 +13,8 @@ The tool fetch the spreadsheet and write the result to a file in the Android or 
 ![Result android](doc/result-android.png) ![Result iOS](doc/result-ios.png)
 
 Create a file update-localization.js
-	var Gs2File = require("localize-with-spreadsheet");
 
+	var Gs2File = require("localize-with-spreadsheet");
     var transformer = Gs2File.fromGoogleSpreadsheet("0Aq6WlQdq71FydDZlaWdmMEUtc2tUb1k2cHRBS2hzd2c", '*');
     transformer.setKeyCol('KEY');
 
@@ -23,6 +23,10 @@ Create a file update-localization.js
 
     transformer.save("nl.lproj/Localizable.strings", { valueCol: "NL", format: "ios" });
     transformer.save("fr.lproj/Localizable.strings", { valueCol: "FR", format: "ios" });
+
+Run it with
+
+    node update-localization.js
 
 ## Advanced
 You can filter the worksheets to include with the second parameter of 'fromGoogleSpreadsheet'
