@@ -6,7 +6,7 @@
 
 
 ## Example
-Given a Google Spreadsheet like this:
+Given a Google Spreadsheet like this:  
 ![Spreadsheet example](doc/spreadsheet-example.png)
 
 The tool fetch the spreadsheet and write the result to a file in the Android or iOS format:  
