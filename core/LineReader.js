@@ -1,6 +1,7 @@
 var Line = require('./Line.js');
 var GoogleSpreadsheet = require('google-spreadsheet');
 var Q = require('q');
+var EOL = require('os').EOL;
 
 var LineReader = {
     select: function (sheets, keyCol, valCol, cb) {
@@ -26,6 +27,8 @@ GSReader.prototype.fetchAllCells = function () {
 
             self._sheet.getInfo(function (err, data) {
                 if (err) {
+                    console.error('Error while fetching the Spreadsheet (' + err + ')');
+                    console.warn('WARNING! Check that your spreadsheet is "Published" in "File > Publish to the web..."');
                     self._fetchDeferred.reject(err);
                 } else {
                     var worksheetReader = new WorksheetReader(this._sheetsFilter, data.worksheets);
@@ -50,6 +53,8 @@ GSReader.prototype.select = function (keyCol, valCol) {
     Q.when(self.fetchAllCells(), function (worksheets) {
         var extractedLines = self.extractFromRawData(worksheets, keyCol, valCol);
         deferred.resolve(extractedLines);
+    }).fail(function (error) {
+        //console.error('Cannot fetch data');
     });
 
     return deferred.promise;

@@ -4,12 +4,9 @@
 
 
 // AUTO-GENERATED
-"MaClé3" = "De valuue 2 ja ja et FUCK";
-"MaClé2" = "De valuee van key 2";
-// un commentaire
-"une clée" = "";
 
 
-// un autre commentaire
 
-"ICI" = "";
+
+
+
