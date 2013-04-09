@@ -13,10 +13,10 @@ Writer.prototype.write = function (filePath, lines, transformer) {
 var FileWriter = function () {
 };
 
-FileWriter.prototype.write = function (filePath, lines, transformer) {
+FileWriter.prototype.write = function (filePath, encoding, lines, transformer) {
     var fileContent = '';
     if (fs.existsSync(filePath)) {
-        fileContent = fs.readFileSync(filePath, 'utf8');
+        fileContent = fs.readFileSync(filePath, encoding);
     }
 
     var valueToInsert = this.getTransformedLines(lines, transformer);

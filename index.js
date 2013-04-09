@@ -26,6 +26,10 @@ Gs2File.prototype.setFormat = function (format) {
     this._defaultFormat = format;
 }
 
+Gs2File.prototype.setEncoding = function (encoding) {
+    this._defaultEncoding = encoding;
+}
+
 Gs2File.prototype.save = function (outputPath, opts, cb) {
     console.log('saving ' + outputPath);
     var self = this;
@@ -34,7 +38,8 @@ Gs2File.prototype.save = function (outputPath, opts, cb) {
 
     var keyCol = opts.keyCol,
         valueCol = opts.valueCol,
-        format = opts.format;
+        format = opts.format,
+        encoding = opts.encoding;
 
     if (!keyCol) {
         keyCol = this._defaultKeyCol;
@@ -48,11 +53,18 @@ Gs2File.prototype.save = function (outputPath, opts, cb) {
         format = this._defaultFormat;
     }
 
+    if(!encoding) {
+        encoding = this._defaultEncoding;
+        if(!encoding) {
+            encoding = 'utf8';
+        }
+    }
+
     this._reader.select(keyCol, valueCol).then(function (lines) {
         if (lines) {
             var transformer = Transformer[format || 'android'];
 
-            self._writer.write(outputPath, lines, transformer);
+            self._writer.write(outputPath, encoding, lines, transformer);
         }
 
         if (typeof(cb) == 'function') {
