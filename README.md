@@ -4,13 +4,13 @@
 ## Installation
 	npm install localize-with-spreadsheet
 
-
 ## Example
 Given a Google Spreadsheet like this:  
-![Spreadsheet example](doc/spreadsheet-example.png)
+![Spreadsheet example](https://github.com/xavierha/localize-with-spreadsheet/raw/master/doc/spreadsheet-example.png)
 
 The tool fetch the spreadsheet and write the result to a file in the Android or iOS format:
-![Result android](doc/result-android.png) ![Result iOS](doc/result-ios.png)
+
+![Result android](https://github.com/xavierha/localize-with-spreadsheet/raw/master/doc/result-android.png) ![Result iOS](https://github.com/xavierha/localize-with-spreadsheet/raw/master/doc/result-ios.png)
 
 Create a file update-localization.js
 
@@ -39,3 +39,4 @@ Ex:
 ## Notes
 - The script will preserve everything that is above the tags: < !-- AUTO-GENERATED --> or // AUTO-GENERATED
 - Your spreadsheet should be "Published" for this to work
+- You need to have git installed for the installation
