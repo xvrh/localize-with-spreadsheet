@@ -45,6 +45,7 @@ var androidTransformer = {
         normalizedValue = normalizedValue.replace(/%([sdf])/gi, '%#$$$1');
         normalizedValue = normalizedValue.replace(/&/gi, "&amp;");
         normalizedValue = normalizedValue.replace(/\u00A0/gi, "\\u00A0");
+        normalizedValue = normalizedValue.replace(/([^\.]|^)(\.{3})([^\.]|$)/gi, '$1&#8230;$3');
 
         var ouput = '<string name="' + key + '">' + normalizedValue + '</string>';
 

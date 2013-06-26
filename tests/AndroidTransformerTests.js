@@ -36,6 +36,27 @@ exports.testEscapeAmp = function (test) {
     test.done();
 };
 
+exports.testReplaceThreePointWithEllipsisCharacter = function (test) {
+    var line = transformer.transformKeyValue('ma_cle', 'Ma valeur...');
+    test.equal('<string name="ma_cle">Ma valeur&#8230;</string>', line);
+
+    test.done();
+};
+
+exports.testReplaceThreePointInTheMiddleWithEllipsisCharacter = function (test) {
+    var line = transformer.transformKeyValue('ma_cle', 'Ma valeur...à remplacer');
+    test.equal('<string name="ma_cle">Ma valeur&#8230;à remplacer</string>', line);
+
+    test.done();
+};
+
+exports.testShouldNotReplaceFourPointWithEllipsisCharacter = function (test) {
+    var line = transformer.transformKeyValue('ma_cle', 'Ma valeur....');
+    test.equal('<string name="ma_cle">Ma valeur....</string>', line);
+
+    test.done();
+};
+
 var xmlHeader = '<?xml version="1.0" encoding="utf-8"?>';
 
 exports.testInsert_WhenEmpty_ShouldCreateResourcesTag = function (test) {
