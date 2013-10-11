@@ -5,7 +5,7 @@
     },
     "name": "localize-with-spreadsheet",
     "description": "Create a localization file in Android or iOS format from a Google Spreadsheet",
-    "version": "0.1.7",
+    "version": "0.1.9",
     "homepage": "https://github.com/xavierha/localize-with-spreadsheet",
     "repository": {
         "type": "git",
