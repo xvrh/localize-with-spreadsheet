@@ -63,8 +63,7 @@ Gs2File.prototype.save = function (outputPath, opts, cb) {
     this._reader.select(keyCol, valueCol).then(function (lines) {
         if (lines) {
             var transformer = Transformer[format || 'android'];
-
-            self._writer.write(outputPath, encoding, lines, transformer);
+            self._writer.write(outputPath, encoding, lines, transformer, opts);
         }
 
         if (typeof(cb) == 'function') {

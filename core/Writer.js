@@ -13,7 +13,7 @@ Writer.prototype.write = function (filePath, lines, transformer) {
 var FileWriter = function () {
 };
 
-FileWriter.prototype.write = function (filePath, encoding, lines, transformer) {
+FileWriter.prototype.write = function (filePath, encoding, lines, transformer, options) {
     var fileContent = '';
     if (fs.existsSync(filePath)) {
         fileContent = fs.readFileSync(filePath, encoding);
@@ -21,7 +21,7 @@ FileWriter.prototype.write = function (filePath, encoding, lines, transformer) {
 
     var valueToInsert = this.getTransformedLines(lines, transformer);
 
-    var output = transformer.insert(fileContent, valueToInsert);
+    var output = transformer.insert(fileContent, valueToInsert, options);
 
     writeFileAndCreateDirectoriesSync(filePath, output, 'utf8');
 };
