@@ -104,7 +104,7 @@ var jsonTransformer = {
         var output = EOL +
                      '{' + EOL +
                      newValues + EOL
-                     + '};';
+                     + '}';
 
         return output;
     }
