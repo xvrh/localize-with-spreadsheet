@@ -11,7 +11,7 @@ var iOSTransformer = {
         return "// " + comment;
     },
     transformKeyValue: function (key, value) {
-        var normalizedValue = value.replace(/%newline%/gi, "\\n");
+        var normalizedValue = value.toString().replace(/%newline%/gi, "\\n");
         normalizedValue = normalizedValue.replace(/"/gi, '\\"');
         normalizedValue = normalizedValue.replace(/%([@df])/gi, '%$1');
         normalizedValue = normalizedValue.replace(/%s/gi, "%@");
@@ -40,7 +40,7 @@ var androidTransformer = {
         return "<!-- " + comment + " -->";
     },
     transformKeyValue: function (key, value) {
-        var normalizedValue = value.replace(/%newline%/gi, "\\n");
+        var normalizedValue = value.toString().replace(/%newline%/gi, "\\n");
         normalizedValue = normalizedValue.replace(/'/gi, "\\'");
         normalizedValue = normalizedValue.replace(/%([sdf])/gi, '%#$$$1');
         normalizedValue = normalizedValue.replace(/&/gi, "&amp;");
